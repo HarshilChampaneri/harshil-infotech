@@ -1,0 +1,19 @@
+<section id="services" class="section container">
+  <div class="section-heading">
+    <div>
+      <div class="eyebrow"><span></span> What we do</div>
+      <h2>Services we provide<br /><em>to our Clients.</em></h2>
+    </div>
+    <p>From your first computer to the fixes that keep it running, we bring practical expertise and honest service to every job.</p>
+  </div>
+  <div class="service-grid">
+    @for (service of services; track service.number) {
+      <a href="#contact" class="service-card">
+        <div class="service-top"><span class="service-number">{{ service.number }}</span><span class="service-icon">{{ service.icon }}</span></div>
+        <h3>{{ service.title }}</h3>
+        <p>{{ service.description }}</p>
+        <span class="text-link">Learn more <span>↗</span></span>
+      </a>
+    }
+  </div>
+</section>

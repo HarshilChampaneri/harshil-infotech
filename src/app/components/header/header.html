@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#top" aria-label="Harshil Infotech home" (click)="closeMenu()">
+      <img src="assets/images/logo.jpeg" alt="Harshil Infotech logo" />
+      <span class="brand-name" #brandNameWrap [class.is-marquee]="isBrandOverflowing()">
+        <strong class="brand-name-inner" #brandNameInner>Harshil Infotech</strong>
+      </span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" (click)="menuOpen.set(!menuOpen())"><span></span><span></span></button>
+    <nav class="main-nav" [class.visible]="menuOpen()">
+      <a href="#services" (click)="closeMenu()">Services</a>
+      <a href="#expertise" (click)="closeMenu()">Why us</a>
+      <a href="#contact" (click)="closeMenu()">Contact</a>
+      <a class="nav-call" href="tel:+919925736071"><span>↗</span> Call now</a>
+    </nav>
+    <div class="theme-switcher" aria-label="Choose theme">
+      <button [class.active]="theme() === 'light'" (click)="setTheme('light')" aria-label="Light theme">☼</button>
+      <button [class.active]="theme() === 'dark'" (click)="setTheme('dark')" aria-label="Dark theme">◑</button>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,3 @@
+/* Intentionally empty. All styling for this component lives in global_style.css, */
+/* which is registered as a global stylesheet in angular.json so selectors like */
+/* .site-header, .nav-wrap, .main-nav, etc. continue to work unscoped. */
