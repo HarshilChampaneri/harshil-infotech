@@ -34,7 +34,7 @@ button { font: inherit; }
 
 .brand-name {display: block;overflow: hidden;white-space: nowrap;min-width: 0;flex: 1 1 auto;}
 
-.brand-name-inner {display: inline-block;white-space: nowrap;font-size: 19px;font-weight: 800;letter-spacing: -.03em;line-height: 1;}
+.brand-name-inner {display: inline-block;white-space: nowrap;font-size: 45px;font-weight: 1000;letter-spacing: .1em;line-height: 3;}
 
 .brand-name.is-marquee .brand-name-inner { animation: brand-marquee 6s linear infinite; }
 
@@ -47,7 +47,7 @@ button { font: inherit; }
   .brand-name-inner { animation: none !important; }
 }
 
-.main-nav { display: flex; align-items: center; gap: 34px; margin-left: auto; font: 500 12px var(--mono); color: var(--muted); } 
+.main-nav { display: flex; align-items: center; gap: 34px; margin-left: auto; font: 500 16px var(--mono); color: var(--muted); } 
 
 .main-nav a { transition: color .2s; } 
 
@@ -67,7 +67,7 @@ button { font: inherit; }
 
 .hero { min-height: 620px; display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 50px; padding-top: 50px; padding-bottom: 55px; } 
 
-.eyebrow { display: flex; align-items: center; gap: 10px; color: var(--red); font: 500 10px var(--mono); letter-spacing: .14em; text-transform: uppercase; } 
+.eyebrow { display: flex; align-items: center; gap: 10px; color: var(--red); font: 500 12px var(--mono); letter-spacing: .14em; text-transform: uppercase; } 
 
 .eyebrow span { width: 7px; height: 7px; background: var(--red); display: inline-block; border-radius: 50%; box-shadow: 0 0 0 5px color-mix(in srgb, var(--red) 13%, transparent); } 
 
@@ -85,7 +85,7 @@ em { color: var(--red); font-style: normal; }
 
 .button:hover { transform: translateY(-3px); } 
 
-.button span { font-size: 16px; } 
+.button span { font-size: 20px; } 
 
 .button-primary { color: white; background: var(--red); } 
 
@@ -95,9 +95,9 @@ em { color: var(--red); font-style: normal; }
 
 .button-ghost:hover { color: var(--foreground); background: var(--panel); } 
 
-.phone-mark { font-size: 21px !important; transform: rotate(-25deg); } 
+.phone-mark { font-size: 20px !important; transform: rotate(-25deg); } 
 
-.trust-row { margin-top: 50px; display: flex; align-items: center; gap: 9px; color: var(--muted); font: 10px var(--mono); } 
+.trust-row { margin-top: 50px; display: flex; align-items: center; gap: 9px; color: var(--muted); font: 13px var(--mono); } 
 
 .trust-dot { width: 6px; height: 6px; background: var(--green); border-radius: 50%; } 
 
@@ -223,7 +223,7 @@ em { color: var(--red); font-style: normal; }
 
 h2 { font-size: clamp(38px, 4.5vw, 62px); line-height: 1.02; letter-spacing: -.075em; margin: 19px 0 0; } 
 
-.section-heading > p, .brands-copy > p { color: var(--muted); line-height: 1.75; font-size: 14px; max-width: 360px; margin: 0 0 4px; } 
+.section-heading > p, .brands-copy > p { color: var(--muted); line-height: 1.75; font-size: 15px; max-width: 360px; margin: 0 0 4px; } 
 
 .service-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); } 
 
@@ -239,11 +239,11 @@ a.service-card { display: block; cursor: pointer; }
 
 .service-icon { font-size: 27px; font-weight: 400; } 
 
-.service-card h3 { font-size: 17px; letter-spacing: -.04em; margin: 36px 0 11px; max-width: 165px; } 
+.service-card h3 { font-size: 20px; letter-spacing: -.04em; margin: 36px 0 11px; max-width: 165px; } 
 
-.service-card p { color: var(--muted); font-size: 12px; line-height: 1.65; min-height: 39px; } 
+.service-card p { color: var(--muted); font-size: 15px; line-height: 1.65; min-height: 39px; } 
 
-.service-card a, .text-link { display: inline-flex; gap: 8px; color: var(--red); font: 10px var(--mono); margin-top: 13px; }
+.service-card a, .text-link { display: inline-flex; gap: 8px; color: var(--red); font: 13px var(--mono); margin-top: 13px; }
 
 .expertise-section { background: var(--ink); color: #eef2ef; padding: 115px 0; } 
 
@@ -330,7 +330,7 @@ a.service-card { display: block; cursor: pointer; }
 
 .contact-details a { font-size: 17px; font-weight: 600; letter-spacing: -.03em; } 
 
-.contact-details p { color: var(--muted); font-size: 13px; line-height: 1.7; margin: 0; }
+.contact-details p { color: var(--muted); font-size: 15px; line-height: 1.7; margin: 0; }
 
 .site-footer { border-top: 1px solid var(--border); padding: 25px 0; } 
 
